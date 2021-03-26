@@ -1,0 +1,12 @@
+.header__lang-link_language_ru {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+    padding-right: 16px; 
+    font-style: normal;
+    transition: opacity 1s linear 0.3s;
+}
+
+.header__lang-link_language_ru:hover {
+  opacity: 0.5;
+}
