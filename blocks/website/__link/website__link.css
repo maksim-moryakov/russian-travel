@@ -1,0 +1,16 @@
+.website__link {
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.website__link:hover {
+    opacity: 0.8;
+}
+
+.website__link:active {
+    opacity: 0.5;
+}
