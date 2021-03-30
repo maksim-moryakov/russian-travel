@@ -1,0 +1,11 @@
+.cover {
+    width: 1184px;
+    height: 740px;
+    background-image: url(../../image/cover-trains.jpg);
+    background-size: 100%, 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.cover:hover {
+    opacity: 0.2;
+}

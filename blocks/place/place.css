@@ -9,3 +9,7 @@
     row-gap: 48px;
     padding-bottom: 80px;
 }
+
+.place:nth-last-child(1) {
+    padding-bottom: 0;
+  }
