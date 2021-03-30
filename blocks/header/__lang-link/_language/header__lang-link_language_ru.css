@@ -3,11 +3,17 @@
     text-decoration: none;
     font-size: 24px;
     line-height: 28px; 
-    font-style: normal;
     border-bottom: 2px solid #FFFFFF;
     transition: opacity 0.3s ease-in-out;
 }
 
 .header__lang-link_language_ru:hover {
-  opacity: 0.2;
+  opacity: 0.8;
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+  .header__lang-link_language_ru {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
