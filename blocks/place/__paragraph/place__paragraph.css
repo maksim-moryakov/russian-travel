@@ -5,6 +5,10 @@
     padding-bottom: 26px;
 }
 
+.place__paragraph:nth-last-child(1) {
+    padding-bottom: 0;
+}
+
 @media (min-width: 1024px) and (max-width: 1200px) {
     .place__paragraph {
         
