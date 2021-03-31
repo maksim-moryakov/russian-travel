@@ -3,4 +3,17 @@
     padding-top: 40px;
     font-size: 16px;
     line-height: 163%;
+    max-width: 690px;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .intro__text {
+        max-width: 288px;
+    }
 }
