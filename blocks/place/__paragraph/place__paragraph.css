@@ -4,3 +4,25 @@
     line-height: 163%;
     padding-bottom: 26px;
 }
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .place__paragraph {
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .place__paragraph {
+        padding-bottom: 25px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .place__paragraph {
+        padding-bottom: 25px;
+        font-size: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

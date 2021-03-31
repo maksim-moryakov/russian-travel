@@ -3,3 +3,15 @@
     display: grid;
     justify-content: center;
 }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .places {
+        padding: 88px 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .places {
+        padding: 64px 0;
+    }
+}

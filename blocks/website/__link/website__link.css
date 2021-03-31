@@ -10,3 +10,9 @@
 .website__link:hover {
     opacity: 0.2;
 }
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .website__link {
+        margin-left: 16px;
+    }
+}
