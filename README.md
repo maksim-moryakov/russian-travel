@@ -30,6 +30,6 @@
 
 **Ссылка_на_проект**
 
-https://maksim-moryakov.github.io/russian-travel/index.css
+https://maksim-moryakov.github.io/russian-travel/
 
 Удачи!
