@@ -1,27 +1,24 @@
 .header {
-    height: 100vh;
-    max-height: 52px;
     max-width: 1184px;
     padding-top: 28px;
     display: flex;
     justify-content: space-between;
 }
 
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media screen and (max-width: 1279px) {
     .header {
         max-width: 928px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
     .header {
         max-width: 720px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 760px) {
+@media screen and (max-width: 767px) {
     .header {
         max-width: 288px;
-        max-height: 42px;
     }
 }

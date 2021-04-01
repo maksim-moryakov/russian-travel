@@ -9,19 +9,19 @@
     padding-top: 245px;
 }
 
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media screen and (max-width: 1279px) {
     .cover__title {
         padding-top: 195px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
     .cover__title {
         padding-top: 155px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 760px) {
+@media screen and (max-width: 767px) {
     .cover__title {
         max-width: 288px;
         padding-top: 33px;

@@ -7,21 +7,21 @@
     position: relative;
 }
 
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media screen and (max-width: 1279px) {
     .lead {
         max-width: 928px;
         padding-top: 48px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
     .lead {
         max-width: 768px;
         padding-top: 48px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 760px) {
+@media screen and (max-width: 767px) {
     .lead {
         max-width: 320px;
         padding-top: 48px;

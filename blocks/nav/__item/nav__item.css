@@ -2,7 +2,7 @@
     padding-right: 18px;
 }
 
-@media (min-width: 320px) and (max-width: 760px) {
+@media screen and (max-width: 767px) {
     .nav__item {
         padding-bottom: 32px;
     }

@@ -9,20 +9,14 @@
     padding-bottom: 0;
 }
 
-@media (min-width: 1024px) and (max-width: 1200px) {
-    .place__paragraph {
-        
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
     .place__paragraph {
         padding-bottom: 25px;
         font-size: 16px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 760px) {
+@media screen and (max-width: 767px) {
     .place__paragraph {
         padding-bottom: 25px;
         font-size: 16px;
