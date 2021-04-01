@@ -37,5 +37,6 @@
         "placeImage"
         "placeText";
         row-gap: 32px;
+        padding-bottom: 50px;
     }
 }
