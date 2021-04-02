@@ -1,4 +1,4 @@
-.website__url {
+.place__url {
     margin: 0;
     padding-bottom: 12px;
     font-weight: normal;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .website__url {
+    .place__url {
         padding-left: 16px;
     }
 }
