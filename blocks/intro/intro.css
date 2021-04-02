@@ -1,12 +1,12 @@
 .intro {
-    padding-top: 114px;
-    padding-left: 148px;
-    max-width: 690px;
+    margin: 114px auto 0;
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: fit-content(984px);
 }
 
 @media screen and (max-width: 1279px) {
     .intro {
-        padding-left: 48px;
         max-width: 928px;
     }
 }
@@ -15,7 +15,7 @@
     .intro {
         max-width: 720px;
         padding-top: 110px;
-        padding-left: 24px;
+        margin: 0 auto;
     }
 }
 
@@ -23,6 +23,6 @@
     .intro {
         max-width: 288px;
         padding-top: 86px;
-        padding-left: 16px;
+        margin: 0 auto;
     }
 }
