@@ -7,7 +7,6 @@
     background-image: url(../../../image/cover-trains.jpg);
     background-size: 100% 100%;
     color: inherit;
-    z-index: 1;
 }
 
 .cover__link::after {
@@ -17,12 +16,11 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #2A2C2F;
+    background: #2A2C2F;
     opacity: 0.3;
-    z-index: -1;
 }
 
-.cover__link:hover {
+.cover__link:hover::after {
     opacity: 0.8;
 }
 

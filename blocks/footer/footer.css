@@ -22,7 +22,6 @@
         width: 100%;
         box-sizing: border-box;
         flex-direction: column;
-        margin: 0 16px;
-        padding: 64px 0 24px;
+        padding: 64px 16px 24px;
     }
 }
